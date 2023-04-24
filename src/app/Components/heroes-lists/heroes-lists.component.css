@@ -1,0 +1,16 @@
+.container{
+    margin: auto;
+    margin-top: 40px;
+    position: flex;
+    width: 500px;
+    text-align: center;
+}
+.hero-details{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+span{
+    font-weight: bold;
+}
