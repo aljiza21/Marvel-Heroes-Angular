@@ -13,4 +13,71 @@
 }
 span{
     font-weight: bold;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+ul{
+    list-style: none;
+}
+.hero-details .heroes button{
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: stretch;
+    height: 1.8em;
+    width: 180px;
+}
+
+.hero-details .heroes button:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: .1em;
+}
+
+.hero-details .heroes button:active {
+    background-color: #525252;
+    color: #fafafa;
+}
+
+.hero-details .heroes button.selected {
+    background-color: black;
+    color: white;
+}
+
+.hero-details .heroes button:hover {
+    background-color: #505050;
+    color: white;
+}
+
+.hero-details .heroes button:active {
+    background-color: black;
+    color: white;
+}
+
+.hero-details .heroes .badge{
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 5px;
+    background-color: #405061;
+    line-height: 1em;
+    margin-right: .8em;
+}
+
+.hero-details .heroes .name{
+    text-align: left;
+    padding-left: 10px;
+    padding: 5px;
+    font-weight: 50;
 }

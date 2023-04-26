@@ -50,6 +50,23 @@
     align-items: center;
   }
 
-  .content h1{
+.content h1{
     color: #CC2B4A;
   }
+
+.container{
+    margin: auto;
+    position: flex;
+    width: 500px;
+    text-align: center;
+}
+.hero-details{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+li{
+  list-style-type: none;
+  padding: 5px;
+}

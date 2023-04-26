@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MARVEL HEROES';
+  currentItem = 'Dragonfly';
+  items = ['Superman', 'Ironman', 'Batman'];
+
+  addItem(newItem: string) {
+    this.items.push(newItem);
+  }
 }
